@@ -10,10 +10,18 @@ package edu.eci.arep.parcialarep.operations;
  * @author Andrés Quintero
  */
 public class Operations {
+    /**
+     * Constructor
+     */
     public Operations(){
 
     }
-
+    
+    /**
+     * 
+     * @param arr
+     * @return 
+     */
     public static double[] ordenar(double[] arr) {
         int longitud = arr.length;
         double temp = 0;
@@ -28,7 +36,11 @@ public class Operations {
         }
         return arr;
     }
-
+    
+    /**
+     * 
+     * @param arr 
+     */
     public static void mostrar(double arr[]) {
         double n = arr.length;
         for (int i = 0; i < n; ++i)
